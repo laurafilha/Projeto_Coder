@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Bricolage Grotesque", sans-serif;
+}
+
+body {
+  color: #413e6a;
+  background-color: #f4f3ef;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul {
+  color: #f4f3ef;
+  background-color: #413e6a;
+  display: flex;
+  font-size: 12px;
+  font-weight: 800;
+  justify-content: space-around;
+  list-style-type: none;
+  align-items: center;
+  padding: 16px 4%;
+}
+
+a {
+  color: #f4f3ef;
+  text-decoration: none;
+}
+
+header img {
+  width: 160px;
+}
+
+h1 {
+  color: #413e6a;
+  font-size: 160pt;
+  line-height: 80%;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+h3 {
+  color: #f4f3ef;
+  font-size: 80px;
+  font-weight: 100;
+  margin: 0px 0px 24px 0px;
+}
+
+p {
+  color: #f4f3ef;
+  font-size: 16px;
+}
+
+.heroHome {
+  display: flex;
+  object-fit: contain;
+  height: 800px;
+  margin: 80px 80px 80px 80px;
+}
+
+.textoHeroHome {
+  margin-left: 80px;
+  margin-top: 80px;
+}
+
+.heroTexto1e2 {
+  margin: 40px 0px 40px 0px;
+  width: 480px;
+}
+
+.heroTextoM {
+  margin: 64px 0px 64px 0px;
+}
+
+.botaoHeroHome {
+  background-color: #413e6a;
+  color: #f4f3ef;
+  font-size: 14px;
+  font-weight: 400;
+  border: 0;
+  padding: 8px 48px 8px 48px;
+  margin: 16px 0px 16px 0px;
+}
+
+.sobreMim {
+  background-color: #413e6a;
+  padding: 240px 80px 160px 80px;
+  margin-top: -160px;
+  display: flex;
+}
+
+.sobreMimParagrafo {
+  display: flex;
+}
+
+.sobreMimParagrafoTextos {
+  padding: 0px 80px 0px 0px;
+}
+
+.separador1 {
+  max-height: 200px;
+  max-width: 1900px;
+}
+
+li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.portMenuHome {
+  padding: 80px;
+  margin: 80px 0px 80px 0px;
+  justify-items: center;
+  background-color: #f4f3ef;
+}
+
+.portMenuBloco {
+  background-color: #f4f3ef;
+  margin: 40px;
+}
+
+.portMenuHomeBotao {
+  display: flex;
+  color: #f4f3ef;
+  align-items: center;
+}
+
+.portMenuHomeItem {
+  padding: 120px;
+  margin: 0px 40px 0px 0px;
+  align-content: center;
+  line-height: equal;
+  text-align: center;
+  display: inline-block;
+  font-size: 56px;
+  font-weight: 100;
+  background-color: #413e6a;
+  height: 600px;
+}
