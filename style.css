@@ -27,6 +27,11 @@ nav ul {
   padding: 16px 4%;
 }
 
+.logoHeader {
+  max-width: 24px;
+  align-self: flex-start;
+}
+
 a {
   color: #f4f3ef;
   text-decoration: none;
@@ -55,7 +60,6 @@ h3 {
 }
 
 p {
-  color: #f4f3ef;
   font-size: 16px;
 }
 
@@ -144,4 +148,36 @@ li {
   font-weight: 100;
   background-color: #413e6a;
   height: 600px;
+}
+
+.blogBloco {
+  display: flex;
+  background-color: #413e6a;
+  padding: 80px;
+}
+
+article > h4 {
+  color: #413e6a;
+}
+
+.BlogPost {
+  width: 360px;
+  height: 480px;
+  background-color: #f4f3ef;
+  color: #413e6a;
+  padding: 40px 40px 40px 40px;
+  display: inline-block;
+  margin: 0px 40px 0px 0px;
+}
+
+.BlogPostPrincipal {
+  background-color: #413e6a;
+  border-color: #f4f3ef;
+  border-width: 2px;
+}
+
+footer {
+  background-color: #f4f3ef;
+  margin: 80px;
+  align-content: center;
 }
