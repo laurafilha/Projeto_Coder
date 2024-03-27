@@ -8,8 +8,6 @@
 .montserrat-uniquifier {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <300>;
-  font-style: normal;
 }
 
 body {
@@ -36,11 +34,15 @@ p {
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
   font-weight: 400;
-  margin-block-start: 0em;
-  margin-block-end: 0em;
+  display: block;
+  margin-block-start: 4em;
+  margin-block-end: 2em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
 }
 
 h4 {
+  padding: 80px 0px 0px 0px;
   text-align: center;
   font-family: "Montserrat", sans-serif;
   font-weight: 800;
@@ -51,6 +53,10 @@ ul {
   list-style-type: none;
 }
 
+aside {
+  font-size: 12px;
+}
+
 .home__hero {
   display: flex;
   align-content: center;
@@ -58,13 +64,12 @@ ul {
 }
 
 .home__textos {
-  margin-top: 80px;
   margin-left: 40px;
   align-content: space-around;
 }
 
 .home__textos__menor {
-  margin: 40px 0px 40px 0px;
+  padding-top: 40px;
 }
 
 .home__botao {
@@ -73,14 +78,17 @@ ul {
   padding: 8px 24px 8px 24px;
   text-decoration: none;
   font-weight: 600;
+  margin-top: 40px;
 }
 
 .portfolio__home {
+  display: block;
   margin: 40px 0px 40px 0px;
-  height: 600px;
+  height: 720px;
   color: #f4f3ef;
   background-color: #413e6a;
   display: list-item;
+  border-bottom: 2px #f4f3ef;
 }
 
 .portfolio__home__links {
@@ -95,4 +103,25 @@ ul {
   margin: 40px 0px 40px 0px;
   justify-content: center;
   text-align: center;
+}
+
+.sobre {
+  border-top: #413e6a 2px;
+  margin-top: 80px;
+  display: grid;
+  grid-template-columns: 2fr 6fr 2fr;
+  align-items: flex-start;
+  height: 1200px;
+}
+
+.sobre_esquerda {
+  width: 100%;
+}
+
+.sobre_centro {
+  margin: 40px;
+}
+
+.sobre__direita {
+  margin-top: 24px;
 }
